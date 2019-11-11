@@ -18,5 +18,13 @@ namespace TypeConversion {
       Console.WriteLine ("The number can not be converted to a byte.");
     }
 
+    try {
+      string str = "true";
+      bool bo = Convert.ToBoolean (str);
+      Console.WriteLine (bo);
+    } catch (System.Exception) {
+      Console.WriteLine ("The string can not be converted to a boolean.");
+    }
+
   }
 }
