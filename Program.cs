@@ -6,5 +6,7 @@ namespace TypeConversion {
     byte b = 1;
     int i = b;
     Console.WriteLine (i);
+    string number = '1234';
+    int i1 = Convert.ToInt32 (number);
   }
 }
