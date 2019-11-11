@@ -1,0 +1,6 @@
+namespace TypeConversion {
+
+  class Program {
+
+  }
+}
